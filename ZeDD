@@ -166,18 +166,18 @@ def menu():
 
     os.system('clear')
     print logo
-    print '\x1b[1;93m\xe2\x95\x94' + 50 * '\xe2\x95\x90' + '╗'
+    print '\x1b[1;91m\xe2\x95\x94' + 50 * '\xe2\x95\x90' + '╗'
     print '\xe2\x95\x91\x1b[1;93m[\x1b[1;93m\xe2\x9c\x93\x1b[1;93m]\x1b[1;93m Name       \x1b[1;93m: \x1b[1;92m' + nama + (33 - len(nama)) * '\x1b[1;93m ' + '║'
     print '\xe2\x95\x91\x1b[1;93m[\x1b[1;93m\xe2\x9c\x93\x1b[1;93m]\x1b[1;93m ID FB ZeDD \x1b[1;93m: \x1b[1;92m' + id + (33 - len(id)) * '\x1b[1;93m ' +     '║'
     print '\xe2\x95\x91\x1b[1;93m[\x1b[1;93m\xe2\x9c\x93\x1b[1;93m]\x1b[1;93m Followers  \x1b[1;93m: \x1b[1;92m' + sub + (33 - len(sub)) * '\x1b[1;93m ' +   '║'
-    print '\x1b[1;93m╠' + 50* '\xe2\x95\x90' + '║'
-    print '║-» \x1b[1;36;49m1. Auto Crack                                  \x1b[1;93m║'
-    print '║-» \x1b[1;36;49m2. Manual Crack                                \x1b[1;93m║'
+    print '\x1b[1;91m╠' + 50* '\xe2\x95\x90' + '║'
+    print '║-» \x1b[1;36;49m1. Auto Crack                                  \x1b[1;91m║'
+    print '║-» \x1b[1;36;49m2. Manual Crack                                \x1b[1;92m║'
     print '║-» \x1b[1;36;49m3. ID Group                                    \x1b[1;93m║'
-    print '║-» \x1b[1;36;49m4. Getting ID/Email/Hp Friends                \x1b[1;93m║'
-    print '║-» \x1b[1;36;49m5. Getting Accounts                            \x1b[1;93m║'
-    print '║-» \x1b[1;36;49m0. Back                                        \x1b[1;93m║'
-    print '\x1b[1;93m╠' + 50* '\xe2\x95\x90' + '╝'
+    print '║-» \x1b[1;36;49m4. Getting ID/Email/Hp Friends                 \x1b[1;94m║'
+    print '║-» \x1b[1;36;49m5. Getting Accounts                            \x1b[1;95m║'
+    print '║-» \x1b[1;36;49m0. Back                                        \x1b[1;96m║'
+    print '\x1b[1;91m╠' + 50* '\xe2\x95\x90' + '╝'
     pilih()
 
 
